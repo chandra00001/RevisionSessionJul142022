@@ -1,0 +1,49 @@
+1)Create an App for a College which enables one to initialize the College Details as follows
+CollegeId
+CollegeName
+CollegAddress
+CollegeLicenseNo
+StudentCapacity
+Category [Medical/Preuniversity/Degree/Engg]
+StaffNumbers
+AcademicHead
+Facility should be made to accept the data from the user and options should be given
+both to initialize through Constructors as well as Getters/Setters
+the functions to display the same should be allowed
+
+2) Create a sample app which can accept 2 numbers and swap the same using Call By Value
+
+3) Employee Salary Calculation should happen through Call By Ref method, when the Employee object 
+initialized with following data: 
+EmployeeData:
+employeeId,EmployeeName,Designation,Dept,Basic,HRA,CCA,Dedn,Allowances,GrossSalary,NettSalary
+should be passed as an Object,
+calculateSalary(Employee e) should take this Object
+with the Data:employeeId,EmployeeName,Designation,Dept,Basic,HRA,CCA
+should calculate Dedn,Alowance,HRA,CCA,
+Basic,HRA %,CCA % ,Dedn % , Allowances % should be passed
+but the function should calculate Nett & Gross initially would be 0.0  and returns an Object
+Employee with all the data populated
+which can be displayed
+
+p v calculateSalary(Employee e,hra%,cca%,basic 1)
+{
+hra = hrapercentage * basic
+cca = ccaperc
+Employee e = new Employee(hra,cca.......)
+return e;
+}
+class Employee
+{
+double hr
+double cca
+
+
+
+}
+
+Employe ex;
+obj.calculateSalary(ex)
+ex 
+
+}

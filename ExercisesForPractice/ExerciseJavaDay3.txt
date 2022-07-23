@@ -1,0 +1,14 @@
+1)Write a program to accept 10 students marks and display the same.
+
+2)write a program to accept 2 strings and display if both the strings are same.
+
+3)Write a program to accept a string and display it in the uppercase
+
+4)Write a program to add 2 integers, an Integer and a float , a float and an integer
+Hint:use functions and function overloading.
+
+5)Write a program with class called Student with data members id,name and marks, initializa the same with the constructors and find the average of the student marks.
+
+6)Write a Class based program wherein an Employee Class has the encapsulated data members Employee Id, name and Salary and 2 accessible functions which are acceptdetails and displaydetails.
+
+7)Write a class based program wherein the customer details are initialized thru a constructor and they are deinitialized thru destructor.

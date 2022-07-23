@@ -1,0 +1,47 @@
+           Java Day2 Exercise
+
+1)Analyze the process of making a call by using a pay phone . identify the objects involved and the behaviour of these objects.Also identify the messages passed between the objects for interacting with each other.
+
+OOAD
+Telephone		Connection
+{
+
+dial(int no,float amt)
+{
+
+
+}
+
+call()
+
+connect()
+{
+
+}
+
+}
+
+2)As a member of a team that is developing an automated ranking system of players in video game parlour, you have been assigned the task of creating a module that accepts the details of the player after a game is over.Declare a class Player , which consists of three member functions.
+AcceptPlayerDetail,ComparePlayerDetail and PrintPlayerDetail,Each of this functions should display the appropriate messages.
+
+ComparePlayerDetails can take an Object of player and compart the scores of two players
+and accordingly set the Rank field
+Here There can be comparison only between 2 Objects
+But later once I cover Collections one can pass a Collection, and compare the collection of Objects with this Object 
+and accordingly rank
+
+3)Write a program to check if the year entered is a leap year.
+(Hint : use if else construct)
+
+4)Write a program that emulates a calculator.The cal should be able to perform the following mathematical operations
+a)Addition
+b)Subtraction
+c)Division
+d)Multiplication
+
+(Use switch case construct)
+
+5) Modify the above program to repeat based on the users requirement(i.e hint:Use While loop) 
+
+6)Write a program to display first 10 even Numbers(Use for loop)
+
